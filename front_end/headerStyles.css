@@ -1,0 +1,283 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background: rgba(255, 255, 255, 0.7); /* Light transparent overlay */
+    background-image: url('../ChikaAmanna_WebTech_Final_Project/images/currency.jpeg');
+    background-blend-mode: overlay; /* Blend transparency with the image */
+    background-size: cover; /* Ensure the image covers the screen */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent image tiling */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default paddings */
+}
+  
+  /* Header styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0b4b6d;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .logo img {
+    max-width: 100px;
+  }
+  
+  .about h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center ;
+  }
+  nav ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  nav li {
+    margin-left: 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  /* Container styles */
+.container {
+    width: 90%; /* Adjust the width of the container */
+    max-width: 500px; /* Optional: Set max width for large screens */
+    margin: auto;
+    padding: 20px; /* Add padding */
+    text-align: center; /* Center text inside */
+  }
+  
+  /* Hero section styles */
+  .hero {
+    /* background-image: url('hero-bg.jpg'); */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 4rem 1rem;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #0b4b6d;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 4px;
+    margin-top: 1.5rem;
+  }
+  
+  /* Features section styles */
+  .features {
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  
+  .feature-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+  }
+  
+  .feature {
+    max-width: 300px;
+  }
+  
+  .feature h3 {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Testimonials section styles */
+  .testimonials {
+    background-color: #f4f4f4;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  
+  .testimonial-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+  }
+  
+  .testimonial {
+    max-width: 400px;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial .author {
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+  /* About page styles */
+  .about {
+    padding: 3rem 1rem;
+  }
+  
+  .about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .about-image {
+    flex: 0 0 400px;
+    margin-right: 2rem;
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .about-text {
+    flex: 1;
+  }
+  
+  .about-text p {
+    margin-bottom: 1rem;
+  }
+  
+  /* Services page styles */
+  .services {
+    padding: 3rem 1rem;
+  }
+  
+  .service-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin-top: 2rem;
+  }
+  /* Section title */
+.services h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .service {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service h3 {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Contact page styles */
+  .contact {
+    padding: 3rem 1rem;
+    text-align: left;
+    
+  }
+  
+  .contact-info {
+    flex: 0 0 300px;
+    margin-right: 2rem;
+  }
+  
+  .contact-info h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .contact-info p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-form {
+    flex: 1;
+  }
+  
+  .contact-form h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-form button {
+    background-color: #0b4b6d;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    width: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .contact-form button:hover {
+    background-color: #0077b6;
+  }
+  
+  .container1 {
+    display: flex; 
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+  .container1 label {
+    font-weight: bold;
+    width: auto; /* Changed from max-width to allow natural sizing */
+    margin-right: 10px; 
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #0b4b6d;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
